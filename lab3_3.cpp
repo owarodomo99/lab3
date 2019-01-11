@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(){
-	float i = 2; 
-	float M = 69;
+	float i = 6; 
+	float M = 19;
 	float ans = 0;
 	while(i <= M){
 		ans = ans + 1/i;
