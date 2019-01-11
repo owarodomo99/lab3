@@ -3,12 +3,12 @@ using namespace std;
 
 int main(){
     float A,B;
-    cout << "A";
+    cout << "A = ";
     cin >> A;
-    cout << "B";
+    cout << "B = ";
     cin >> B;
-    int i = N, ans = 0;
-    while(i <= M){
+    int i = A, ans = 0;
+    while(i <= B){
         ans = ans + i;
         i = 1 / i+1;
     }
@@ -17,4 +17,3 @@ int main(){
     return 0;
 }
     
-}
