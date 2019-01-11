@@ -2,15 +2,25 @@
 using namespace std;
 
 int main(){
-	float i = 6; 
-	float M = 19;
-	float ans = 0;
-	while(i <= M){
-		ans = ans + 1/i;
-		i = i + 1;
-	}
-	cout << "ans = " << ans;
-	
+	string text1, text2;
+    int N, count;
+    cout << "Enter the first text: ";
+    cin >> text1;
+    cout << "Enter the secound text: ";
+    cin >> N;
+    count = 0;
+    while(count < N){
+        if(count % 2 == 0){
+            cout << text1 << " ";
+
+        }else{
+            cout << text2 << " ";
+
+        }
+        count += 1;
+    }
+
+
 	return 0;
 	
 		
