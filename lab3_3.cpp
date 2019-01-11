@@ -1,0 +1,9 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    float A,B;
+    cout << "A";
+    cin >> "A";
+    
+}
